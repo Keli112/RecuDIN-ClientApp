@@ -294,9 +294,7 @@ public class SignUpViewController {
                 user.setEmail(emailTxf.getText());
                 user.setFullName(fullNameTxf.getText());
                 user.setPassword(passwordTxf.getText());
-                user.setStreet(streetTxf.getText());
                 user.setCity(cityTxf.getText());
-                user.setZip(Integer.parseInt(zipTxf.getText()));
                 user.setUserType(UserType.CUSTOMER);
                 // Generates a signable to get the register method
 

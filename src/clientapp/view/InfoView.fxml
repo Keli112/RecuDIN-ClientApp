@@ -16,7 +16,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
 
-<SplitPane fx:id="infoViewpanel" dividerPositions="0.048" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="768.0" prefWidth="1366.0" stylesheets="@../../resources/styles.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clientapp.controller.InfoViewController">
+<SplitPane fx:id="infoViewpanel" dividerPositions="0.048" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="768.0" prefWidth="1366.0" stylesheets="@/resources/styles.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clientapp.controller.InfoViewController">
     <items>
         <!-- Top AnchorPane -->
         <AnchorPane fx:id="anchorPaneTop" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
@@ -43,7 +43,7 @@
                 <TextField fx:id="userNameTextF" editable="false" layoutX="31.0" layoutY="434.0" prefHeight="26.0" prefWidth="195.0" />
                 <TextField fx:id="emailTextF" editable="false" layoutX="29.0" layoutY="263.0" prefHeight="26.0" prefWidth="195.0" />
                 <TextField fx:id="cityTextF" editable="false" layoutX="31.0" layoutY="618.0" prefHeight="26.0" prefWidth="195.0" />
-                <Label fx:id="userNameLbl" layoutX="31.0" layoutY="409.0" prefHeight="18.0" prefWidth="195.0" text="User name:" />
+                <Label fx:id="userNameLbl" layoutX="31.0" layoutY="409.0" prefHeight="18.0" prefWidth="135.0" text="User name:" />
                 <Label fx:id="emailLbl" layoutX="29.0" layoutY="237.0" prefHeight="16.0" prefWidth="100.0" text="Email:" />
                 <Label fx:id="cityLbl" layoutX="31.0" layoutY="593.0" prefHeight="16.0" prefWidth="100.0" text="City:" />
 

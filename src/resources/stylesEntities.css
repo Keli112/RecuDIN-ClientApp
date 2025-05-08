@@ -1,11 +1,10 @@
 @font-face {
-    font-family: 'Cheri';
-    src: url('/resources/CHERI___.TTF'); /* Ajusta esta ruta si es necesario */
+    -fx-font-family: 'Comic Sans MS';
 }
 
 /* General Styling */
 * {
-    -fx-font-family: 'Cheri'; /* Cambiar la fuente a Cheri */
+    -fx-font-family: 'Comic Sans MS';
     -fx-font-size: 14px;
     -fx-base: #F0F0F0;
 }
@@ -156,7 +155,7 @@
 }
 
 #categoriesLbl, #moviesLbl, #providersLbl {
-    -fx-font-family: 'Cheri';
+    -fx-font-family: 'Comic Sans MS';
     -fx-font-size: 18px;
     -fx-text-fill: #87CEFA; /* Azul claro */
 }

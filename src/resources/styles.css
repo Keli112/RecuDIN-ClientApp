@@ -1,11 +1,6 @@
-@font-face {
-    font-family: 'Cheri';
-    src: url('/resources/CHERI___.TTF'); /* Ajusta esta ruta si es necesario */
-}
-
 /* Aplicar la fuente Cheri a los Labels específicos */
 #lblEmail, #lblPassword, #lblError, #emailLabel, #usernameLabel, #streetLabel, #passwordLabel, #repeatPasswdLabel, #cityLabel, #zipLabel, #userNameLbl, #emailLbl, #streetLbl, #cityLbl, #zipLbl {
-    -fx-font-family: 'Cheri';   /* Cambiar la fuente a Cheri */
+    -fx-font-family: 'Comic Sans MS';   /* Cambiar la fuente a Cheri */
     -fx-font-size: 18px;        /* Tamaño de fuente (ajústalo según prefieras) */
     -fx-text-fill: white;       /* Color del texto */
 }
@@ -32,12 +27,101 @@
     -fx-stroke-width: 2; /* Grosor de la línea */
 }
 
+.menu-bar {
+    -fx-background-color: linear-gradient(to right, #c76f9f, #5c2a6b);
+    -fx-font-size: 16px;
+    -fx-font-family: 'Comic Sans MS';
+}
+
+.menu-bar .label {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+.menu {
+    -fx-text-fill: white;
+}
+
+.context-menu, .menu-item {
+    -fx-font-size: 14px;
+    -fx-font-family: 'Comic Sans MS';
+}
+
+.menu-item:focused {
+    -fx-background-color: #34dede;
+    -fx-text-fill: black;
+}
+
+.table-container {
+    -fx-background-color: linear-gradient(to right, #c76f9f, #5c2a6b);
+    -fx-padding: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.2, 0, 4);
+}
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-alignment: center-left;
+    -fx-padding: 10px 5px;
+    -fx-border-color: rgba(255, 255, 255, 0.3);
+    -fx-border-width: 0 0 1px 0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 0.1, 0, 1);
+}
+
+
+.table-view .table-cell {
+    -fx-background-color: rgba(255, 255, 255, 0.05);
+    -fx-text-fill: #ffffff;
+    -fx-padding: 12px 15px;
+    -fx-alignment: center-left;
+}
+
+.table-view .table-cell:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.15);
+}
+
+.table-view .table-cell .image-view {
+    -fx-fit-width: 50px;
+    -fx-fit-height: 50px;
+    -fx-background-radius: 5px;
+}
+
+#FilterMenuButton, #addTicketButton {
+-fx-background-color: #34dede;
+-fx-text-fill: black;
+-fx-background-radius: 20px;
+-fx-border-radius: 20px;
+}
+
+#FilterMenuButton\:hover, #addTicketButton\:hover {
+-fx-background-color: #1cb5b5;
+}
+
+.minimal-button {
+-fx-background-color: #34dede;
+-fx-border-color: black;
+-fx-font-weight: bold;
+-fx-font-family: 'Comic Sans MS';
+-fx-text-fill: black;
+-fx-font-size: 14px;
+}
+
 /* Estilo minimalista para el botón de inicio de sesión */
 .minimal-button, #btnSignIn {
     -fx-background-color: #34dede; /* Fondo transparente */
     -fx-border-color: black; /* Borde negro minimalista */
     -fx-font-weight: bold;
-    -fx-font-family: 'Cheri';
+    -fx-font-family: 'Comic Sans MS';
     -fx-border-width: 1px; /* Grosor del borde */
     -fx-text-fill: black; /* Color del texto */
     -fx-font-size: 14px; /* Tamaño de la fuente */
@@ -110,18 +194,13 @@
     -fx-background-repeat: no-repeat; /* No repetir la imagen */
 }
 
-@font-face {
-    font-family: 'Cheri';
-    src: url('/resources/CHERI___.TTF'); /* Ajusta esta ruta si es necesario */
-}
-
 /* Aplicar la fuente Cheri y estilos a Labels específicos en infoView */
 #infoViewpanel #lblEmail, #infoViewpanel #lblPassword, #infoViewpanel #lblError,
 #infoViewpanel #emailLabel, #infoViewpanel #usernameLabel, #infoViewpanel #streetLabel,
 #infoViewpanel #passwordLabel, #infoViewpanel #repeatPasswdLabel, #infoViewpanel #cityLabel,
 #infoViewpanel #zipLabel, #infoViewpanel #userNameLbl, #infoViewpanel #emailLbl,
 #infoViewpanel #streetLbl, #infoViewpanel #cityLbl, #infoViewpanel #zipLbl {
-    -fx-font-family: 'Cheri';
+    -fx-font-family: 'Comic Sans MS';
     -fx-font-size: 22px;       /* Aumentar el tamaño solo en info view */
     -fx-text-fill: black;
     -fx-alignment: center;
